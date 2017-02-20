@@ -5,11 +5,10 @@ Created on Mon Feb 20 10:55:07 2017
 @author: dlf4mf
 """
 
-def greeting(msg):
-    print(msg)
+import helper
 
 def main():
-    greeting("hello")
+    helper.greeting("hello")
     
 if __name__ == "__main__":
     main()
